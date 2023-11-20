@@ -1,0 +1,52 @@
+.bg-dark{
+  background-color: #4b9ef0de !important;
+}
+
+.hero{
+  background-image: url(../image/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+}
+.hero .layer{
+  padding: 0 !important;
+}
+.hero .content h2{
+font-size: 48px;
+}
+/* start project section */
+.breadcrumb-item.active {
+  color: #CDE1F8 !important;
+}
+
+.card__project{
+    box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+}
+.card__project ul li{
+  font-size: 15px;
+}
+.card__project ul li span{
+  font-weight: 700;
+}
+.project__info .caption h2{
+font-size:26px ;
+font-weight: 700;
+}
+.carousel-indicators [data-bs-target]{
+      width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #0078ff;
+}
+.carousel-indicators .active{
+  background-color: #0078ff;
+}
+/* media query */
+@media screen and (min-width:992px) {
+  .hero .content h2{
+font-size: 56px;
+font-weight: 600;
+}
+}

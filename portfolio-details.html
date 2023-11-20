@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicons -->
+    <link
+      rel="shortcut icon"
+      href="assets/image/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>DevFolio Bootstrap Portfolio Template - Index</title>
+    <!-- * vendor css links -->
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
+    <!-- * main css style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- css portfolio -->
+    <link rel="stylesheet" href="assets/css/portfolio-details.css" />
+    <!-- media-query -->
+    <link rel="stylesheet" href="assets/css/vendor/mediaQuery.css" />
+  </head>
+  <body>
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-dark p-5 bg-dark navbar-expand-lg bg-light position-fixed start-0 end-0 nav__style z-3"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">DevFolio</a>
+        <button
+          class="navbar-toggler pe-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-pills navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex justify-content-between align-items-center"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >drop down <i class="fa-solid fa-angle-down"></i
+              ></a>
+              <ul class="dropdown-menu main__dropdown">
+                <li><a href="#">drop down 1</a></li>
+                <li class="dropdown deep">
+                  <a href="#"> deep drop down</a>
+                  <ul class="dropdown-menu deep__menu">
+                    <li><a href="#">test 1</a></li>
+                    <li><a href="#">test 2</a></li>
+                    <li><a href="#">test 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"> drop down 2</a></li>
+                <li><a href="#"> drop down3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div
+          class="layer d-flex justify-content-center align-items-center text-white"
+        >
+          <div class="content text-center">
+            <h2>PORTFOLIO DETAILS</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Portfolio Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="project__info mt-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-8">
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img
+                      src="assets/image/slider/portfolio-details-1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="assets/image/slider/portfolio-details-2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="assets/image/slider/portfolio-details-3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-indicators position-static align-items-center mt-3">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="card__project p-4">
+                <h2>Project information</h2>
+                <ul>
+                  <li>
+                    <a href="#"><span>Category:</span> Web design</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>Client:</span>ASU Company</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>Project date:</span>01 March, 2020</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>Project URL:</span> www.example.com</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption ">
+                <h2 class="my-4">This is an example of portfolio detail</h2>
+                <p>
+                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
+                  itaque inventore commodi labore quia quia. Exercitationem
+                  repudiandae officiis neque suscipit non officia eaque itaque
+                  enim. Voluptatem officia accusantium nesciunt est omnis
+                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
+                  deserunt eius.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="px-2">
+      <p class="text-white">© Copyright DevFolio. All Rights Reserved</p>
+      <div class="d-flex justify-content-center">
+        Designed by <a class="ms-1" href="#">BootstrapMade</a>
+      </div>
+    </footer>
+    <!-- bootstrap link js -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
